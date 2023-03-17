@@ -126,21 +126,25 @@ h1{
     width: 50%;
     margin: 5px auto;
 }
-.swiper{
+.carousel{
     margin-top: 100px;
     border-radius: 30px;
 }
-.swiper-slide{
-    /* background-color: yellowgreen; */
+.carousel-inner{
+    border-radius: 30px;
+    box-shadow: 10px 20px 18px #adadad;
+}
+.carousel-item{
     padding: 30px;
     border-radius: 30px;
     margin: 5px auto !important;
-    box-shadow: 5px 10px 18px #adadad;
+    box-shadow: 10px 20px 18px #adadad;
+}
+.quote-container{
+    width: 100%;
 }
 .quote-img{
     margin: 50px auto;
-    display: flex;
-    align-items: center;
 }
 .quote-img>img{
     border-radius: 100%;
