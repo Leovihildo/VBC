@@ -127,7 +127,6 @@ h1{
 .carousel{
     margin-top: 100px;
     border-radius: 30px;
-    background-color: orchid;
 }
 .carousel-inner{
     border-radius: 30px;
@@ -140,7 +139,6 @@ h1{
     padding: 2px;
     border-radius: 30px;
     height: 100%;
-    background-color: orangered;
     /* margin: 5px auto !important; */
     /* box-shadow: 10px 20px 18px #adadad; */
 }
@@ -171,9 +169,6 @@ h1{
     align-items: center;
     text-align: center;
     justify-items: center;
-}
-.form-ent >form>div{
-    background-color: orchid;
 }
 form{
     margin: -50px auto;
@@ -317,7 +312,7 @@ hr{
         height: 25px;
     }
     h1{
-        width: 60%;
+        width: 80%;
     }
     .carousel-inner{
         width: 100px;
