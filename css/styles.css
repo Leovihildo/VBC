@@ -127,9 +127,11 @@ h1{
 .carousel{
     margin-top: 100px;
     border-radius: 30px;
-    display: flex;
+    overflow: hidden;
 }
 .carousel-inner{
+    display: flex;
+    align-items: stretch;
     border-radius: 30px;
     box-shadow: 10px 20px 18px #adadad;
     border-top: 1px solid #e0dfdf;
@@ -140,8 +142,7 @@ h1{
 .carousel-item{
     padding: 10px 3px;
     border-radius: 30px;
-    height: 400px;
-    align-items: stretch;
+    min-width: 100%;
 }
 .quote-img{
     margin: 50px auto;
