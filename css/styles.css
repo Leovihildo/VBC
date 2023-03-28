@@ -387,6 +387,9 @@ hr{
     .form-control{
         width: 300px !important;
     }
+    #myChart{
+        margin-top: -100px;
+    }
     .btn{
         width: 130px;
     }
