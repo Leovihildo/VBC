@@ -591,6 +591,7 @@ for (var i=0; i<evaluation.length; i++){
 }
 
 // Calculate Employee's Evaluation
+var tablerow = document.getElementsByTagName("tr");
 const ctx = document.getElementById('myChart');
 let Tracks = localStorage.getItem("Tracks");
 Tracks = JSON.parse(Tracks);
@@ -606,9 +607,8 @@ for (var i=0; i<evaluation.length; i++){
             else if((evaluation[i].exp == "Slow Track")){
                 document.querySelector(".remark").innerHTML = "What's wrong?"
             }
+            tablerow[i].classList.add("table-danger");
             document.querySelector(".track").innerHTML = "You're on the "+evaluation[i].exp;
-            document.querySelector(".table-row").classList.add("table-danger");
-
         }
     }
     else{
